@@ -4,6 +4,7 @@ Clearview::Application.routes.draw do
   root 'pages#home' #Index/Home Page
   get "about" => "pages#about" #About page route for /about
   get "contact" => "pages#contact" #Contact Page for /contact
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
