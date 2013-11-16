@@ -79,5 +79,5 @@ Clearview::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
 
-  config.action_mailer.default_url_options = { :host => 'clearinventory.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'http://clearinventory.herokuapp.com' }
 end
