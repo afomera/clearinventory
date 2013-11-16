@@ -44,6 +44,8 @@ end
 #Get Bootstrap-Sass
 gem 'bootstrap-sass', '~> 3.0.2.0'
 
+#Lets add Devise for User Accounts
+gem 'devise'
 #Get Ready for Heroku Deploy
 group :development, :test do
 	gem 'sqlite3'
