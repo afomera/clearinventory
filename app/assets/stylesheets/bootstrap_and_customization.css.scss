@@ -1,14 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-
+@import url(http://fonts.googleapis.com/css?family=Chivo:400,900);
 $body-bg: #ecf0f1;
-$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-inverse-bg: #2c3e50;
+$font-family-sans-serif:                'Chivo' ,'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-inverse-bg: #16a085; //#2c3e50
 $navbar-height: 45px;
 $navbar-inverse-link-color: white;
 $brand-primary: #c0392b;
 $jumbotron-bg: white;
 
-@import 'bootstrap';  //Keep this below varibles you want to change in Bootstrap or nothing will happen
+$brand-success: #8e44ad;
+
+@import 'bootstrap';  //Keep this below vars you want to change in Bootstrap or nothing will happen
 
 .center {
 	text-align: center;
