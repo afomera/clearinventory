@@ -2,14 +2,14 @@
 @import url(http://fonts.googleapis.com/css?family=Chivo:400,900);
 $body-bg: #ecf0f1;
 $font-family-sans-serif:                'Lato', 'Chivo' , 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-inverse-bg: #16a085; //#2c3e50
+$navbar-inverse-bg: #2C3E50; //#2c3e50
 $navbar-height: 45px;
 $navbar-inverse-link-color: white;
-$brand-primary: #c0392b;
+$brand-primary: #D6271C;
 $jumbotron-bg: white;
 $well-bg: white;
 
-$brand-success: #8e44ad;
+$brand-success: #6DBCDB;
 
 @import 'bootstrap';  //Keep this below vars you want to change in Bootstrap or nothing will happen
 
@@ -18,4 +18,7 @@ $brand-success: #8e44ad;
 }
 .navbar-brand {
 	font-weight: bold;
+}
+span.large-image {
+    font-size: 5.2em;
 }
