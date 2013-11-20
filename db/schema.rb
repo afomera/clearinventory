@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131119010814) do
+ActiveRecord::Schema.define(version: 20131120004431) do
 
-  create_table "equipment", force: true do |t|
-    t.string   "eqtype"
-    t.string   "serial"
-    t.string   "tech"
+  create_table "teches", force: true do |t|
+    t.string   "name"
+    t.string   "location"
+    t.string   "techid"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
