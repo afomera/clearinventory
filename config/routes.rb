@@ -1,5 +1,7 @@
 Clearview::Application.routes.draw do
   
+  resources :technicians
+
   root 'pages#home' #Index/Home Page
   devise_for :users
   
