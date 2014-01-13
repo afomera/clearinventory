@@ -4,7 +4,9 @@
 
 		 <% if user_signed_in? %>
 
-		 	<p>#I'm Signed in congrats self</p>
+		 	<p>User is signed in, so display notices here</p>
+
+		 	This could be notices of matches in inventory, or count of unmactched radios and modems
         <% else %>
 	        <%= link_to "Login", new_user_session_path, class: "btn btn-primary btn-lg" %>
 			<%= link_to "Register", new_user_registration_path, class: "btn btn-success btn-lg" %>
@@ -13,7 +15,7 @@
 		
 	</div>
 
-	<div class="">
+	<div class="center">
 		<p>This is content inside of the well, but outside of the jumbotron. How are you guys doing today?</p>
  		 <%= link_to new_user_session_path do %>
               <span class="glyphicon glyphicon-home large-image"></span>
