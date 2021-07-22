@@ -42,7 +42,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 #Get Bootstrap-Sass
-gem 'bootstrap-sass', '~> 3.0.2.0'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 #Lets add Devise for User Accounts
 gem 'devise'
